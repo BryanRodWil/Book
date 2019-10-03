@@ -8,4 +8,4 @@ client: Somebody
 category: Sketch
 ---
 
-Realization of a storyboard to learn to tell a story in drawing with imposed actions (fight, fall, lengthened).
+A storyboard to learn to tell a story in drawing with imposed actions (fight, fall, lengthened).
