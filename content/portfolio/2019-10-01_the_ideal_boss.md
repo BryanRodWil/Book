@@ -5,7 +5,7 @@ description: ""
 override_default_template: false
 image: "Lemployeur-ideal.jpg"
 client: Somebody
-category: Web
+category: Print
 ---
 
 A poster to present a project focused on the ideal employer during a showroom. Made with Adobe Illustrator
