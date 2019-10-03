@@ -8,7 +8,7 @@
     </div>
 
 
-    <div class="py-32 px-4 md:px-8">
+    <div class="py-8 px-4 md:px-8">
       <div class="container mx-auto">
         <div class="max-w-sm">
           <h1 class="text-4xl pb-2 font-medium max-w-xl">{{ $page.portfolioSingle.title }}<span class="font-bold text-primary"> .</span></h1>
@@ -16,7 +16,14 @@
       </div>
     </div>
 
-    <div class="px-4 md:px-8 py-24">
+    <div class="px-4 md:px-8 py-8">
+      <div class="container mx-auto">
+        <div class="project-image bg-gray-light relative" :style="{padding:'50%', backgroundImage:'url(/' + $page.portfolioSingle.image + ')', backgroundRepeat:'no-repeat', backgroundSize:'105%', backgroundPosition:'center'}">
+        </div>
+      </div>
+    </div>
+
+    <div class="px-4 md:px-8 py-12">
       <div class="container mx-auto">
         <div class="flex flex-wrap">
           <div class="w-full sm:w-2/6 pb-24">
@@ -37,14 +44,6 @@
           <div class="w-full sm:w-4/6">
             <div :class="false?'py-32':'py-0'" class="content text-justify leading-loose  text-lg text-blue-gray mx-auto" v-html="$page.portfolioSingle.content" />
           </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="px-4 md:px-8 pb-16 md:pt-20 md:pb-48">
-      <div class="container mx-auto">
-        <div class="project-image bg-gray-light relative" :style="{padding:'30%', backgroundImage:'url(/' + $page.portfolioSingle.image + ')', backgroundRepeat:'no-repeat', backgroundSize:'105%', backgroundPosition:'center'}">
         </div>
       </div>
     </div>
