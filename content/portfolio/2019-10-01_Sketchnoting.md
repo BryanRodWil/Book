@@ -5,7 +5,7 @@ description: ""
 override_default_template: false
 image: "sketchnoting.jpg"
 client: Somebody
-category: Digital
+category: Sketch
 ---
 
 A sketchnoting board, on the different techniques to make yourself a graphic simplification.
