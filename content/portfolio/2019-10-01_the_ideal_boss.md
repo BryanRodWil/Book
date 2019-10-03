@@ -8,4 +8,4 @@ client: Somebody
 category: Web
 ---
 
-Realization of a poster to present a project focused on the ideal employer during a showroom. Made with Adobe Illustrator
+A poster to present a project focused on the ideal employer during a showroom. Made with Adobe Illustrator
