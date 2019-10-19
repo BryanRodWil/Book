@@ -53,7 +53,7 @@ module.exports = {
               maxWidth: '950px',
             },
             '@screen xl': { // (1280)
-              maxWidth: '1150px',
+              maxWidth: '950px',
             },
           }
         })

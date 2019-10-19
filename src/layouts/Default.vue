@@ -6,7 +6,7 @@
       <div class="flex flex-col h-full justify-center items-center">
           <g-link class="text-2xl font-medium text-center pb-12" @click.native="closeMenu()" to="/#" exact>About</g-link>
           <g-link class="text-2xl font-medium text-center pb-12" @click.native="closeMenu()" to="/portfolio" exact>Portfolio</g-link>
-          <g-link class="text-2xl font-medium text-center pb-12" @click.native="closeMenu()" to="/#" exact>Contact</g-link>
+          <g-link class="text-2xl font-medium text-center pb-12" @click.native="closeMenu()" to="/contact" exact>Contact</g-link>
           <!-- <g-link class="text-2xl font-medium text-center pb-12" @click.native="closeMenu()" to="/blog" exact>Blog</g-link> -->
       </div>
     </div>

@@ -6,7 +6,7 @@
     aria-labelledby="logo"
     role="presentation"
   >
-    <title id="logo" lang="en">Logo</title>
+    <title :id="iconName" lang="en">{{iconName}}</title>
     <g :fill="color">
         <path v-for="(ico,i) in icon" :key="i" :d="ico" />
     </g>

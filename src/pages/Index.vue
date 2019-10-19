@@ -66,7 +66,7 @@ export default {
     title: 'Home'
   },
   mounted(){
-    console.log(this.$page.portfolio.edges)
+    // console.log(this.$page.portfolio.edges)
   }
 }
 </script>

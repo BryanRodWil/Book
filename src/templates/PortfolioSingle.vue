@@ -16,12 +16,24 @@
       </div>
     </div>
 
+    <!-- <div class="px-4 md:px-8 py-8">
+      <div class="container mx-auto">
+        <div class="bg-gray-light relative" :style="{padding:'50%', backgroundImage:'url(/' + $page.portfolioSingle.image + ')', backgroundRepeat:'no-repeat', backgroundSize:'105%', backgroundPosition:'center'}"></div>
+      </div>
+    </div> -->
+
     <div class="px-4 md:px-8 py-8">
       <div class="container mx-auto">
-        <div class="project-image bg-gray-light relative" :style="{padding:'50%', backgroundImage:'url(/' + $page.portfolioSingle.image + ')', backgroundRepeat:'no-repeat', backgroundSize:'105%', backgroundPosition:'center'}">
-        </div>
+
+        <carousel :perPage="1">
+          <slide v-for="(img,i) in $page.portfolioSingle.images" :key="i">
+            <div class="bg-cover bg-no-repeat bg-center" :style="{paddingBottom:'70%', backgroundImage:'url(/' + img + ')'}"></div>
+          </slide>
+        </carousel>
+
       </div>
     </div>
+
 
     <div class="px-4 md:px-8 py-12">
       <div class="container mx-auto">
@@ -58,6 +70,7 @@ query PortfolioSingle ($path: String!) {
     description
     date (format: "D MMMM, YYYY")
     image
+    images
     client
     category {
       id
@@ -69,9 +82,10 @@ query PortfolioSingle ($path: String!) {
 
 <script>
 import Navbar from "~/components/Navbar.vue"
+import { Carousel, Slide } from 'vue-carousel';
 
 export default {
-  components:{ Navbar },
+  components:{ Navbar, Carousel, Slide },
   metaInfo () {
     return {
       title: this.$page.portfolioSingle.title

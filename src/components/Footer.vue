@@ -14,7 +14,7 @@
           <span class="text-lg px-8 invisible md:visible">|</span>
           <g-link class="text-lg text-center pb-6 md:pb-0" to="/portfolio" exact>Portfolio</g-link>
           <span class="text-lg px-8 invisible md:visible">|</span>
-          <g-link class="text-lg text-center pb-6 md:pb-0" to="/#" exact>Contact</g-link>
+          <g-link class="text-lg text-center pb-6 md:pb-0" to="/contact" exact>Contact</g-link>
         </div>
 
       </div>

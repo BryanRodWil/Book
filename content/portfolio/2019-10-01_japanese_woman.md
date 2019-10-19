@@ -4,6 +4,7 @@ date: 2019-10-01 17:42:34
 description: ""
 override_default_template: false
 image: "Japanese-Woman.jpg"
+images: ["Japanese-Woman.jpg", "machine.jpg"]
 client: Somebody
 category: Print
 ---

@@ -10,7 +10,8 @@
     "@gridsome/source-filesystem": "^0.5.0",
     "@gridsome/transformer-remark": "^0.3.2",
     "axios": "^0.19.0",
-    "gridsome": "^0.6.9"
+    "gridsome": "^0.6.9",
+    "vue-carousel": "^0.18.0"
   },
   "devDependencies": {
     "gridsome-plugin-tailwindcss": "^2.2.21",
